@@ -1,0 +1,629 @@
+	#main {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #7f8f99;
+}
+
+.outerContainer {
+		margin: 0 auto;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.63);
+		width: 90%;
+		max-width: 1100px;
+} /* .container */
+
+@media only screen and (min-width: 700px) {
+
+	.outerContainer {
+		width: 95%;
+	} /* .container */
+
+}
+
+@media only screen and (min-width: 820px) {
+
+	.outerContainer {
+		width: 88%;
+	} /* .container */
+
+}
+
+@media only screen and (min-width: 940px) {
+
+	.outerContainer {
+		width: 98%;
+	} /* .container */
+
+}
+
+
+
+@media only screen and (min-width: 1050px) {
+
+	.outerContainer {
+		width: 95%	
+	} /* .container */
+
+}
+
+
+@media only screen and (max-width: 979px) {
+	.container {
+	width: 700px;
+}
+} 
+
+@media only screen and (max-width: 739px) {
+	.container {
+	width: 300px;
+}
+} 
+@media only screen and (max-width: 500px) {
+	.container {
+	width: 90%;
+}
+} 
+
+
+
+
+/*
+.container {
+	width: 90%;
+}
+*/
+
+
+section.columns .column h1, 
+#nav-main a, 
+.post .title, 
+.post .title a,
+.aside .widget h1,
+.aside .widget ul.fancy li,
+.flexslider .slides .caption {
+/**	font-family: Roboto-Light; */
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*---------------------------------------------------------------------------------------------
+*
+*  Header
+*
+*---------------------------------------------------------------------------------------------*/
+
+.headerLogo {
+	max-width: 493px;
+	display: block;
+}
+
+/*---------------------------------------------------------------------------------------------
+*
+*  Main Navigation
+*
+*---------------------------------------------------------------------------------------------*/
+
+.nav-main {
+	border-style: solid;
+	border-color: #4fb54f;
+	padding-top: 8px;
+}
+
+.nav-main a {
+	font-size: 20px;
+}
+
+nav > ul > li {
+	margin-right: 30px;
+}
+
+/*---------------------------------------------------------------------------------------------
+*
+*  Buttons
+*
+*---------------------------------------------------------------------------------------------*/
+
+.hpButtons {
+	padding-top: 20px;
+}
+
+.sidebarButtons {
+	padding-top: 22px;
+}
+
+.buttonRow a {
+	display: inline-block;
+	margin-right: 5%;
+	width: 47%;
+	float: left;
+}
+
+.buttonRow a:hover {
+	border: none;
+}
+
+.buttonRow a img {
+	max-width: 100%;
+	margin-bottom: 12px;
+}
+
+.buttonRow a:hover img {
+	opacity: .9;
+	
+}
+
+.buttonRow a:nth-child(2n) {
+	margin-right: 0;
+	float: right;
+}
+
+.buttonRow a:nth-child(3) {
+	clear: left;
+}
+
+.buttonRow.row1 {
+	margin-bottom: 12px;
+	clear: both;
+	overflow: auto;
+}
+
+.buttonRow.row2 {
+	clear: both;
+}
+
+
+@media only screen and (min-width: 740px) {
+	.hpButtons.beta {
+		padding-top: 0;
+		width: 30%;
+	}
+}
+
+@media only screen and (min-width: 820px) {
+
+}
+
+@media only screen and (min-width: 940px) {
+.buttonRow a img {
+	margin-bottom: 15px;
+}
+.hpButtons.beta {
+		padding-top: 0;
+		width: 31%;
+	}
+
+.buttonRow a {
+	width:46%;
+}
+
+}
+
+
+@media only screen and (min-width: 1050px) {
+
+}
+
+/*---------------------------------------------------------------------------------------------
+*
+*  Buckets below slider
+*
+*---------------------------------------------------------------------------------------------*/
+
+section.columns .column {
+	border-style: solid;
+	border-color: #4fb54f;
+}
+
+section.columns .column h1 {
+	font-size: 29px;
+	line-height: 33px;
+}
+
+
+/*---------------------------------------------------------------------------------------------
+*
+*  Posts
+*
+*---------------------------------------------------------------------------------------------*/
+
+.post .title a {
+	color: #388ACA;
+}
+
+@media only screen and (min-width: 820px) {
+
+	.post .title a {
+		position: relative;
+		top: 7px;
+	}
+
+}
+
+#content .post {
+	padding-top: 10px;
+}
+
+.home #content .post {
+	padding-top: 0;
+}
+
+.home .hp-articles article:last-child {
+	display: none;
+}
+
+#nav-top a:hover, #nav-main a:hover, #nav-main li.sub > a:hover:after, #bottom input[type="submit"]:hover, #footer a:hover, .breadcrumbs a:hover, .post .title a:hover, .comments .comment .meta a:hover, .comments .comment .meta cite a, .pagination a:hover {
+	color: #4fb54f !important;
+	-webkit-transition: all .2s;
+	transition: all .2s;
+}
+
+.post {
+	box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.2);
+}
+
+img.wp-image-6048,
+img.wp-image-6319 {
+	border: none !important;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------
+*
+*  Sidebar
+*
+*---------------------------------------------------------------------------------------------*/
+
+#aside .widget {
+	border: none;
+	text-align: center;
+}
+
+@media only screen and (min-width: 739px) {
+		
+		#aside .widget {
+			text-align: left;
+		} /* #aside .widget */
+	
+} /* screen and (min-width: 739px) */
+
+#aside .widget h1 {
+	text-transform: uppercase;
+	color: #7f8f99;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+#aside .widget ul.fancy li {
+	padding-left: 0;
+	border: none;
+	font-size: 14px;
+}
+
+#aside .widget ul.fancy li a {
+	color: #388ACA;
+}
+
+#aside .sideCalendar p a {
+    word-break: break-word;
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+}
+
+#aside ul.horizontal {
+	text-align: center;
+}
+
+#website-social-2 li a,
+#aside ul.horizontal li a {
+	background-size: 32px 32px;
+	width: 32px;
+	height: 32px;
+	display: block;
+	text-align: center;
+	margin: 0 5px;
+	text-indent: -10000000px;
+}
+
+@media only screen and (min-width: 739px) {
+	#website-social-2,
+	#aside ul.horizontal {
+		position: absolute;
+		top: -7px;
+		right: 7px;
+	}
+}
+
+#archives-3 label {
+	display: none;
+}
+
+
+input[type="text"], input[type="password"] {
+	border-radius: 0;
+	box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.2);
+}
+
+.widget-social .horizontal li,
+#aside ul.horizontal li {
+	display: inline-block;
+	text-align: center;
+	float: none;
+}
+
+a.memberLogin {
+	font-family: Roboto-Medium;
+	font-weight: normal;
+	font-style: normal;
+	text-align: center;
+	display: block;
+	border: 1px solid #c7c9ca;
+	border-radius: 4px;
+	padding: 18px 15px 7px;
+	position: relative;
+	font-size: 18px;
+	letter-spacing:1px;	
+}
+
+a.memberLogin:hover {
+	border-color: #c7c9ca !important;
+	color: #00b3e4 !important;
+}
+
+a.memberLogin img {
+	position: absolute;
+	top: -15px;
+	max-width: 82px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+@media only screen and (min-width: 739px) {
+	
+	#memberLoginLink {
+		position: absolute;
+		top: 53px;
+		right: 0;
+	}
+	
+	a.memberLogin {
+		width: 111px;
+	}
+	
+}
+
+.home .sidebarButtons {
+	display: none;
+}
+
+.widget,
+.custom-html-widget {
+	padding: 25px 0;
+}
+
+/*---------------------------------------------------------------------------------------------
+*
+*  WYSIWYG
+*
+*---------------------------------------------------------------------------------------------*/
+
+.wysiwyg p, 
+.wysiwyg ul li, 
+.wysiwyg ul li a,
+.wysiwyg ol li,
+.wysiwyg ol li a {
+	font-family: Roboto;
+	font-size: 1.1em;
+}
+
+.post .wysiwyg h1, 
+.post .wysiwyg h2, 
+.post .wysiwyg h3, 
+.post .wysiwyg h4, 
+.post .wysiwyg h5, 
+.post .wysiwyg h6 {
+/**	font-family: Roboto; */
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*---------------------------------------------------------------------------------------------
+*
+*  Footer
+*
+*---------------------------------------------------------------------------------------------*/
+
+#bottom {
+	background-color: #4a4b4c;
+	background-image: none;
+	box-shadow: inset 0px 6px 6px -3px rgba(0, 0, 0, 0.31);
+	padding: 20px 0;
+}
+
+.footerContainer {
+	width: 95%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.footerLogo {
+	max-width: 292px;
+	margin: 0 auto 20px;
+}
+
+.footerLogo a:hover {
+	text-decoration: none;
+	border: none;
+}
+
+.footerLogo img {
+	max-width: 100%;
+}
+
+.copyright {
+	color: #b0b3b6;
+	text-align: center;
+}
+
+#footer {
+	border: none;
+}
+
+@media only screen and (min-width: 739px) {
+	
+	.footerLogo {
+		max-width: 292px;
+		margin: 0;
+		float: right;
+	}
+	
+	.copyright {
+		color: #b0b3b6;
+		text-align: left;
+		float: left;
+	}
+
+
+	
+}
+
+
+/*---------------------------------------------------------------------------------------------
+*
+*  Web Fonts
+*
+*---------------------------------------------------------------------------------------------*/
+
+.Roboto-Bold {
+        font-family: Roboto-Bold;
+        font-weight: normal;
+        font-style: normal;
+}
+
+.Roboto-BoldItalic {
+        font-family: Roboto-BoldItalic;
+        font-weight: normal;
+        font-style: normal;
+}
+
+.Roboto-Medium {
+        font-family: Roboto-Medium;
+        font-weight: normal;
+        font-style: normal;
+}
+
+.Roboto-MediumItalic {
+        font-family: Roboto-MediumItalic;
+        font-weight: normal;
+        font-style: normal;
+}
+/*---------------------------------------------------------------------------------------------
+*
+*  Newsletter 
+*
+*---------------------------------------------------------------------------------------------*/
+
+.blog .category-newsletter {
+	display: none !important;
+}
+
+.single #newsletterReturnBTN, .page #newsletterReturnBTN {
+	display: none;
+}
+
+.single .category-newsletter #newsletterReturnBTN {
+	display: block;
+}
+
+#newsletterReturnBTN .post-categories li {
+	list-style: none;
+	display: inline;
+}
+
+#newsletterReturnBTN {
+	font-weight: bold;
+	font-family: Roboto;
+	font-size: 1.3em;
+	display: block;
+	padding-top: 30px;
+	padding-bottom: 25px;
+	
+}
+
+#newsletterReturnBTN a:first-child {
+	display: none;
+}
+
+.single .category-newsletter + .pagination {
+	display: none;
+}
+
+.archive.category-newsletter + .pagination {
+	display: block;
+}
+
+
+/*---------------------------------------------------------------------------------------------
+*
+*  @OHA Gallery
+*
+*---------------------------------------------------------------------------------------------*/
+
+.ohaGallery {
+	padding-bottom: 40px;
+}
+
+
+
+.ohaGallery div a {
+	text-decoration: none;
+	font-family: Roboto-Medium;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 25px;
+	line-height: 1.155;
+}
+
+
+@media only screen and (min-width: 700px) {
+
+}
+
+@media only screen and (min-width: 820px) {
+
+}
+
+@media only screen and (min-width: 940px) {
+
+}
+
+@media only screen and (min-width: 980px) {
+.ohaGallery div {
+	width: 48%;
+	margin-right: 2%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.ohaGallery div:nth-child(2n) {
+	margin-right: 0;
+}
+
+
+.ohaGallery div:nth-child(2n+1) {
+	clear: left;
+}
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){var cookie_name='wordpress_'+theme.name+'_update_hidden_version';jQuery('#update-notice-hide').click(function(){jQuery(this).parent('.update-nag').remove();jQuery.cookie(cookie_name,theme.updateVersion,{expires:180})})});

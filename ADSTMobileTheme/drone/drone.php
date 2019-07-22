@@ -1,0 +1,2 @@
+<?php
+ if (!class_exists('Drone')): class Drone { const VERSION = '1.0.4'; const DIRECTORY = 'drone'; } require TEMPLATEPATH.'/'.Drone::DIRECTORY.'/dronefunc.class.php'; require TEMPLATEPATH.'/'.Drone::DIRECTORY.'/dronehtml.class.php'; require TEMPLATEPATH.'/'.Drone::DIRECTORY.'/droneoptions.class.php'; require TEMPLATEPATH.'/'.Drone::DIRECTORY.'/dronetheme.class.php'; require TEMPLATEPATH.'/'.Drone::DIRECTORY.'/dronewidget.class.php'; endif;

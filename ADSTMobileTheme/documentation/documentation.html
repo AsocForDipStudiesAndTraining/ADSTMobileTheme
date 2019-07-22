@@ -1,0 +1,737 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>documentation_v12.txt</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	font: normal 12px/22px Arial, Helvetica, sans-serif;
+	color: #333;
+	margin: 0 auto;
+	padding: 30px 10px;
+	max-width: 960px;
+}
+h1 {
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 1.2;
+	letter-spacing: -1.5px;
+	margin-bottom: 25px;
+}
+h2 {
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 1.2;
+	margin: 18px 0;
+}
+h3 {
+	font-size: 24px;
+	line-height: 1.2;
+	margin: 32px 0 18px;
+}
+h2 + h3 {
+	margin-top: 18px;
+}
+h4 {
+	font-size: 20px;
+	line-height: 1.2;
+	margin: 18px 0;
+}
+p {
+	margin: 18px 0;
+}
+a {
+	color: #0099ff;;
+	text-decoration: underline;
+}
+a:hover {
+	color: #ff6600;;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+img {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+ul, ol {
+	margin-left: 20px;
+}
+ul {
+	list-style: inside disc;
+}
+ol {
+	list-style: inside decimal;
+}
+hr {
+	border: none;
+	border-top: 1px dotted #868686;
+	margin: 18px 0;
+}
+pre {
+	border-left: 3px solid #eee;
+	background: #f6f6f6;
+	line-height: 20px;
+	margin: 18px 0;
+	padding: 5px 30px;
+	overflow: auto;
+}
+code {
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	background: #666;
+	color: #fff;
+	font-family: "Lucida Console", Monaco, monospace;
+	white-space: nowrap;
+	padding: 3px 3px 2px;
+}
+pre code {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background: none;
+	color: #333;
+	white-space: pre;
+	padding: 0;
+}
+table {
+	border-collapse: separate;
+	border-spacing: 1px;
+	background: #eee;
+}
+th, td {
+	text-align: left;
+	padding: 4px 8px;
+}
+th {
+	background: #f6f6f6;
+	font-weight: bold;
+}
+td {
+	background: #fff;
+}
+</style>
+</head>
+<body>
+<h1>Website - WordPress theme documentation</h1>
+
+<p>Version: 1.5.1<br />
+Created: 21 June 2012<br />
+Website: <a href="http://themeforest.net/item/website-responsive-wordpress-theme/1739143/">http://themeforest.net/item/website-responsive-wordpress-theme/1739143/</a><br />
+Demo: <a href="http://themes.kubasto.com/website/">http://themes.kubasto.com/website/</a></p>
+
+<hr />
+
+<h2>Table of contents</h2>
+
+<div id="toc"></div>
+
+<hr />
+
+<h2>Introduction</h2>
+
+<p><em>Website</em> is a responsive WordPress theme, which means it adapts to the device on which it's presented. Actually, it presents one of 4 generated versions:</p>
+
+<p><strong>desktop</strong> - for displays wider than 979 px<br />
+<strong>tablet</strong> - for displays 740 - 979 px wide<br />
+<strong>mobile</strong> - for displays 320 - 739 px wide<br />
+<strong>mini</strong> - for displays narrower then 320 px</p>
+
+<p>The theme cares for your content so it looks great on all versions, but you can also decide to show part of a content on some versions only, and hide on others (read more about it here). Website has a lot of features, and most of them are intuitive to use, but if you need a deeper insight, this is the  documentation prepared for you. Thanks for buying, and enjoy :)</p>
+
+<hr />
+
+<h2>Installation</h2>
+
+<h3>Theme installation</h3>
+
+<p><strong>FTP method:</strong><br />
+Upload <strong>just the contents of the <code>website</code> folder</strong> to the <code>wp-content/themes</code> folder on your server.<br />
+Activate the theme through the <em>Appearance / Themes</em> menu in WordPress.<br />
+Open the theme configuration page and set up theme options.</p>
+
+<p><strong>Pure WordPress method:</strong><br />
+Extract package downloaded form ThemeForest, compress just the <code>website</code> folder and upload it using <em>Appreance / Themes / Install Themes</em> uploader.</p>
+
+<p><strong>Important note</strong>: After activating the theme, please go to <em>Settings / Permalinks</em> and click <em>Save changes</em>.</p>
+
+<p>Enjoy your new theme!</p>
+
+<h3>Player for self-hosted videos and audios</h3>
+
+<p>If you plan to use self-hosted video or audio files (and not for example YouTube or vimeo), there is one more thing you need to do:</p>
+
+<p>Download <a href="http://www.longtailvideo.com/players/jw-flv-player">JW Player</a> (I couldn't attach it due its license limitations) and <a href="http://www.longtailvideo.com/addons/skins/183/WhoTube">WhoTube</a> skin for it. Before you download JW Player, make sure to uncheck "Include Viral, a video sharing plugin". Put JW Player and the skin in <code>wp-content/themes/website/data/jwplayer</code> folder. Make sure, skin remains in it's separate folder (so as a result you get this kind of paths to crucial files: <code>data/jwplayer/jwplayer.js</code> and <code>data/jwplayer/whutube/whotube.xml</code>).</p>
+
+<h3>Importing example content</h3>
+
+<p>If you wish to have the same content I've created for theme's demo site, you can import XML to your WordPress from the <code>demo_content</code> folder. Use <a href="http://wordpress.org/extend/plugins/wordpress-importer/">WordPress Importer plugin</a> to do it. Just remember it doesn't affect Theme Options.</p>
+
+<p><strong>I don't recommend importing this file on your production site.</strong> Just on the test site, if you have one (it's good to have one).</p>
+
+<hr />
+
+<h2>Working with the theme</h2>
+
+<h3>Front page</h3>
+
+<p><video id="video-frontpage" class="video-js vjs-default-skin" controls preload="auto" width="960" height="600" poster="res/frontpage.png" data-setup="{}">
+    <source src="res/frontpage.mp4" type="video/mp4">
+    <source src="res/frontpage.ogg" type="video/ogg">
+</video></p>
+
+<h3>Menus</h3>
+
+<p><video id="video-menus" class="video-js vjs-default-skin" controls preload="auto" width="960" height="600" poster="res/menus.png" data-setup="{}">
+    <source src="res/menus.mp4" type="video/mp4">
+    <source src="res/menus.ogg" type="video/ogg">
+</video></p>
+
+<h3>Portfolios</h3>
+
+<p><video id="video-portfolios" class="video-js vjs-default-skin" controls preload="auto" width="960" height="600" poster="res/portfolios.png" data-setup="{}">
+    <source src="res/portfolios.mp4" type="video/mp4">
+    <source src="res/portfolios.ogg" type="video/ogg">
+</video></p>
+
+<h3>Galleries</h3>
+
+<p><video id="video-galleries" class="video-js vjs-default-skin" controls preload="auto" width="960" height="600" poster="res/galleries.png" data-setup="{}">
+    <source src="res/galleries.mp4" type="video/mp4">
+    <source src="res/galleries.ogg" type="video/ogg">
+</video></p>
+
+<h3>Sliders</h3>
+
+<p><video id="video-sliders" class="video-js vjs-default-skin" controls preload="auto" width="960" height="600" poster="res/sliders.png" data-setup="{}">
+    <source src="res/sliders.mp4" type="video/mp4">
+    <source src="res/sliders.ogg" type="video/ogg">
+</video></p>
+
+<h3>Contact form</h3>
+
+<p>To create contact form page, select <em>Contact form</em> as a template when you create or edit page.<br />
+To add contact page to the footer, drag and drop <em>Contact form</em> widget to the <em>Footer sidebar</em>.</p>
+
+<h3>Full width page/post</h3>
+
+<p>Create or edit page or post, and in the <em>Options</em> box set <em>Sidebar</em> to <em>None</em>.</p>
+
+<h3>Shortcodes</h3>
+
+<p>If you are not familiar with shortcodes, these are extra magic spells to use in text which can for example add a special highlight or text box. You just start with opening shortcode, put some text or other stuff inside and write closing shortcode on the end. Some shortcodes don’t need the closing tag (for example horizontal lines). If you want to learn more how to use shortcodes and watch examples, check them online on the <a href="http://themes.kubasto.com/website/shortcodes/">Website demo</a>.</p>
+
+<p>There are 9 shortcodes with lots of parameters:</p>
+
+<table>
+    <tr>
+        <th>Shortcode</th>
+        <th>Parameter</th>
+        <th>Allowed values</th>
+        <th>Default value</th>
+    </tr>
+    <tr>
+        <td><code>dropcap</code>, <code>dc</code></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>hr</code>, <code>line</code></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><code>mark</code>, <code>highlight</code></td>
+        <td>color</td>
+        <td>yellow</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td rowspan="2"><code>quote</code></td>
+        <td>align</td>
+        <td>none, left, right</td>
+        <td>none</td>
+    </tr>
+    <tr>
+        <td>width</td>
+        <td>[number]px, [number]%</td>
+        <td>100%</td>
+    </tr>
+    <tr>
+        <td rowspan="2"><code>icon</code></td>
+        <td>name</td>
+        <td>address, administrative-docs, advertising, archives... <em>(all filenames from the</em> <code>data/img/icons/16</code> <em>and</em> <code>data/img/icons/32</code> <em>folders)</em></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>size</td>
+        <td>small, big</td>
+        <td>small</td>
+    </tr>
+    <tr>
+        <td rowspan="2"><code>tooltip</code>, <code>tip</code></td>
+        <td>title</td>
+        <td>[text]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>gravity</td>
+        <td>nw, n, ne, w, e, sw, s, se</td>
+        <td>n</td>
+    </tr>
+    <tr>
+        <td><code>list</code></td>
+        <td>icon</td>
+        <td>address, administrative-docs, advertising, archives... <em>(all filenames from the</em> <code>data/img/icons/16</code> <em>and</em> <code>data/img/icons/32</code> <em>folders)</em></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td rowspan="4"><code>button</code></td>
+        <td>type</td>
+        <td>tiny, small, normal, big</td>
+        <td>normal</td>
+    </tr>
+    <tr>
+        <td>url</td>
+        <td>[url address]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>target</td>
+        <td>self, parent, top, blank</td>
+        <td>self</td>
+    </tr>
+    <tr>
+        <td>icon</td>
+        <td>address, administrative-docs, advertising, archives... <em>(all filenames from the</em> <code>data/img/icons/16</code> <em>and</em> <code>data/img/icons/32</code> <em>folders)</em></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td rowspan="3"><code>box</code></td>
+        <td>color</td>
+        <td>green, orange, red, blue, gray</td>
+        <td>blue</td>
+    </tr>
+    <tr>
+        <td>icon</td>
+        <td>address, administrative-docs, advertising, archives... <em>(all filenames from the</em> <code>data/img/icons/16</code> <em>and</em> <code>data/img/icons/32</code> <em>folders)</em></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>size</td>
+        <td>small, big</td>
+        <td>small</td>
+    </tr>
+    <tr>
+        <td rowspan="3"><code>column</code>, <code>col</code></td>
+        <td>width</td>
+        <td>[number]/[number]</td>
+        <td>1/2</td>
+    </tr>
+    <tr>
+        <td>first</td>
+        <td>first, yes, true</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>last</td>
+        <td>last, yes, true</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td rowspan="4"><code>tab</code></td>
+        <td>label</td>
+        <td>[text]</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>first</td>
+        <td>first, yes, true</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>last</td>
+        <td>last, yes, true</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>active</td>
+        <td>active, yes, true</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td rowspan="3"><code>media</code></td>
+        <td>version</td>
+        <td>all, lte-tablet, lte-mobile, lte-mini, gte-desktop, gte-tablet, gte-mobile, desktop, tablet, mobile, mini</td>
+        <td>all</td>
+    </tr>
+    <tr>
+        <td>visible</td>
+        <td>yes, true, no, false</td>
+        <td>yes</td>
+    </tr>
+    <tr>
+        <td>type</td>
+        <td>block, inline</td>
+        <td>block</td>
+    </tr>
+</table>
+
+<p>You can preview all icons in the <code>data/img/icons</code> folder. You can also add new icons (16x16px and 32x32px) there – they will work the same way as all, just use their name as parameters value.</p>
+
+<h3>Hiding / showing page content on specific types of devices</h3>
+
+<p>There are 4 versions of the site - desktop, tablet, mobile and mini. By default all content is the same for all versions. If you want to hide part of a content for some site versions (e.g mobiles), or show just only some versions, use the <code>[media]</code> shortcode described in the chapter above.</p>
+
+<p><code>[media]</code> shortcode has 3 parameters:</p>
+
+<p><code>version</code> - describes type of devices for which you want to show / hide content placed inside the shortcode. Available basic values are: <code>desktop</code>, <code>tablet</code>, <code>mobile</code>, <code>mini</code>. If you want to describe more versions in the same time, you can use the <code>gte-</code> prefix (grater or equal) or <code>lte-</code> (lower or equal). E.g.:<br />
+<code>lte-mobile</code> defines both mobile and mini versions.<br />
+<code>gte-mobile</code> defines all versions except mini.</p>
+
+<p><code>visible</code> - defines if you want to hide or show content specified by the <code>version</code> parameter. E.g.:</p>
+
+<pre><code>This part of content is visible for everyone.
+
+[media version="lte-mobile" visible="false"]
+    This part of content is hidden on mobile devices (which means its visible only on tablet and desktop displays).
+[/media]
+</code></pre>
+
+<p>or:</p>
+
+<pre><code>[media version="tablet" visible="true"]
+    This paragraph is visible on tablet only.
+[/media]
+</code></pre>
+
+<p>Parameter <code>visible</code> by default is <code>true</code> so in that case you may skip it.</p>
+
+<p>Below is an example of using two different contents - one for desktop devices, second for mobiles:</p>
+
+<pre><code>[media version="gte-tablet"]
+    Content for tablets and desktops.
+[/media]
+
+[media version="lte-mobile"]
+    Content for mobiles.
+[/media]
+
+And this part of content is visible on all devices.
+</code></pre>
+
+<p><code>[media]</code> blocks may consist a lot of text, images and even other shortcodes with no limits.</p>
+
+<h3>Updating theme</h3>
+
+<p>Theme has an update notifier, so you will be noticed in your admin area if a new version will be released. The best method to update would be: upload all files to your server, replacing the old ones. No data nor settings will be lost (unless you've made some custom changes to the files by yourself before).</p>
+
+<h2>FAQ</h2>
+
+<h3>Images on my site doesn't appear, why?</h3>
+
+<p>Make sure the <code>data/cache</code> folder in the theme's folder has <code>777</code> permissions. If you don't know how to change it, use <a href="http://codex.wordpress.org/Changing_File_Permissions">this tutorial</a>.</p>
+
+<h3>My self-hosted video/audio is not displaying, why?</h3>
+
+<p>Make sure you've uploaded JW Player on your server in the right location. It's described in the <em>Installation</em> chapter of this documentation.</p>
+
+<h3>How to make a menu item to not be a link?</h3>
+
+<p>Use the <code>#</code> sign as a custom link URL of the desired menu item in <em>Appearance / Menus</em>.</p>
+
+<h3>How to exclude some images from the standard WordPress gallery?</h3>
+
+<p>Check IDs of the images you want to exclude in the Media Library (move cursor over thumbnail and read the <code>attachment_id</code> parameter from the status bar in your browser). E.g.:</p>
+
+<pre><code>http://mydomain.com/wp-admin/media.php?attachment_id=32&amp;action=edit
+</code></pre>
+
+<p>Now edit page (in the HTML editor mode) which contains the gallery and add the <code>exclude</code> parameter to the gallery shortcode with the ID's separated with commas E.g.:</p>
+
+<pre><code>[gallery columns="4" exclude="32,40"]
+</code></pre>
+
+<h3>After pasting custom code, images doesn't appear or are distorted, why?</h3>
+
+<p>Probably because of the responsiveness feature, which deals with images special way. So, to fix it, add <code>no-responsive</code> class to all images used in the custom code. For example:</p>
+
+<pre><code>&lt;img src="http://domain.com/image.png" class="no-responsive" /&gt;
+</code></pre>
+
+<hr />
+
+<h2>Advanced customization</h2>
+
+<h3>Translating theme</h3>
+
+<p>If you install or set your WordPress in your language, also theme will use this language if it's supported. If you want to add another translation of the theme, below is a short instruction:</p>
+
+<p>For translations I recommend <a href="http://www.poedit.net/">Poedit</a> tool.</p>
+
+<p>Create a copy of the <code>xx_XX.po</code> file (from <code>languages</code>) and rename it respectively to your language (check proper name <a href="http://www.gnu.org/savannah-checkouts/gnu/gettext/manual/html_node/Locale-Names.html#Locale-Names">here</a>. For example Swiss German would be <code>de_CH.po</code>).</p>
+
+<ul>
+<li>Open that file in Poedit,</li>
+<li>select <em>Catalog / Update</em> from sources,</li>
+<li>translate,</li>
+<li>select language and country in <em>Catalog / Settings</em>,</li>
+<li>save.</li>
+</ul>
+
+<p><img src="res/poedit.png" alt="" /></p>
+
+<p>It seems a little harsh, but this is the proper way. If you need more details, <a href="http://codex.wordpress.org/User:Skippy/Creating_POT_Files">check here</a>.</p>
+
+<h3>Graphics editing</h3>
+
+<p>There are a lot of layered and sliced Photoshop <em>.psd</em> files prepared for you in the <code>psd</code> folder. Most of them are grouped in theme color versions folders.</p>
+
+<h3>Advanced settings of the theme</h3>
+
+<p>Some options, which are not available in <em>Theme Options</em> can be set by defining PHP constants. To do that, create <code>const.php</code> file in the main folder of the theme, and define one of these constants:</p>
+
+<table>
+    <tr>
+        <th>Constant's name</th>
+        <th>Default value</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td><code>WEBSITE_DEBUG</code></td>
+        <td><code>false</code></td>
+        <td>Turns on debugging mode. For example, it cause that developer versions of CSS and JS are attached, and not the minified versions.</td>
+    </tr>
+    <tr>
+        <td><code>WEBSITE_ADDITIONAL_SIDEBARS_COUNT</code></td>
+        <td><code>3</code></td>
+        <td>Number of additional sidebars.</td>
+    </tr>
+    <tr>
+        <td><code>WEBSITE_SOCIAL_WIDGET_SLOT_COUNT</code></td>
+        <td><code>8</code></td>
+        <td>Number of slots in the Social media widget.</td>
+    </tr>
+    <tr>
+        <td><code>WEBSITE_SCHEME_SWITCHER</code></td>
+        <td><code>false</code></td>
+        <td>Turns on scheme switcher using GET parameter. E.g. <code>http://yourdomain.com/?scheme=dark</code>.</td>
+    </tr>
+</table>
+
+<p>Example content of the <code>const.php</code> file:</p>
+
+<pre><code>&lt;?php
+    define('WEBSITE_ADDITIONAL_SIDEBARS_COUNT', 5);
+    define('WEBSITE_SOCIAL_WIDGET_SLOT_COUNT', 12);
+?&gt;
+</code></pre>
+
+<hr />
+
+<h2>External resources</h2>
+
+<p><a href="http://fancybox.net">Fancybox</a><br />
+<a href="http://www.woothemes.com/flexslider/">FlexSlider</a><br />
+<a href="http://remysharp.com/2009/01/07/html5-enabling-script">html5.js</a><br />
+<a href="https://github.com/carhartl/jquery-cookie">jquery.cookie</a><br />
+<a href="http://www.newmediacampaigns.com/page/jquery-flickr-plugin">jQuery Flickr Feed Plugin</a><br />
+<a href="http://jscolor.com">JSColor</a><br />
+<a href="http://masonry.desandro.com">masonry</a><br />
+<a href="http://code.google.com/p/minify">minify</a><br />
+<a href="http://pc.de/icons">PC.DE Bremen icon pack</a><br />
+<a href="http://leaverou.github.com/prefixfree">prefixfree</a><br />
+<a href="https://github.com/scottjehl/Respond">Respond.js</a><br />
+<a href="http://onehackoranother.com/projects/jquery/tipsy">tipsy</a><br />
+<a href="http://tweet.seaofclouds.com">tweet!</a><br />
+<a href="https://github.com/choonkeat/yaselect">yaselect</a><br />
+<a href="http://videojs.com/">Video.js</a><br />
+<a href="http://www.wpzoom.com">WPZOOM Social Networking Icon Set</a></p>
+
+<hr />
+
+<h2>Changelog</h2>
+
+<p><strong>Website 1.5.1</strong></p>
+
+<ul>
+<li>[button] shortcode can now process target parameter also with the "_" sign (e.g.: blank and _blank)</li>
+<li>fixed wrong processing [caption] shortcode in WordPress 3.4</li>
+<li>fixed wrong processing password form of protected posts in WordPress 3.4</li>
+</ul>
+
+<p><strong>Website 1.5</strong></p>
+
+<ul>
+<li>added option to set compression level of resampled images (also independent setting for mobile version)</li>
+<li>added option to stick footer to bottom</li>
+<li>added option to open links from slides in a new browser's window</li>
+<li>added social media icon: Bloglovin</li>
+<li>improved support of older versions of Firefox browser</li>
+<li>fixed wrong displaying images inside the [tab] shortcode</li>
+<li>fixed bug causing not displaying images in the RSS feed</li>
+<li>fixed Open Graph Protocol issue with non-alphanumerical glyphs</li>
+<li>fixed bug related to mb_strlen function</li>
+<li>compatibility fixes for WordPress 3.4</li>
+<li>other minor fixes</li>
+</ul>
+
+<p><strong>Website 1.4</strong></p>
+
+<ul>
+<li>added option to place video in a slider</li>
+<li>added new sorting options for gallery images</li>
+<li>added meta tag description to site's header</li>
+<li>added new shortcode - quote</li>
+<li>added option to create unclicable menu items</li>
+<li>added option to set featured image for pages</li>
+<li>added default values of theme options displaying</li>
+<li>better support for foreign custom post types</li>
+<li>updated Flexslider to version 1.8</li>
+<li>updated other minor JS libraries</li>
+<li>improved CSS of lists</li>
+<li>fixed not loading image for Pinterest bug</li>
+<li>other small improvements and fixes</li>
+</ul>
+
+<p><strong>Website 1.3</strong></p>
+
+<ul>
+<li>added support for Pinterest service</li>
+<li>unnecessary JavaScript scripts are no longer added if a page doesn't use them (which means big loading optimization)</li>
+<li>better Open Graph Protocol support</li>
+<li>added option to center logo in the header</li>
+<li>added option to adjust slider height</li>
+<li>added option to display author box at the end of post</li>
+<li>added option to disable ad banner in header on mobile versions</li>
+<li>added new shortcode [icon]</li>
+<li>added option to open shortcode button URL in new window</li>
+<li>added option to display links of next / previous posts at the post page</li>
+<li>added option to display breadcrumbs also in galleries and portfolios</li>
+<li>post and page titles don't link to themselves any more</li>
+<li>external images are not processed by TimThumb any more</li>
+<li>parameter "exclude" in standard WordPress gallery shortcode now works</li>
+<li>improved gallery and portfolio look in Internet Explorer 8 browser</li>
+<li>fixed theme miss-function with PHP "eAccelerator" extension installed on a server</li>
+<li>fixed wrong images sizes generated for different site versions</li>
+<li>fixed missing translation texts</li>
+<li>fixed bug causing not displaying page content in some specific cases</li>
+<li>fixed bug causing image links not open in new window</li>
+<li>fixed CSS styles of the &lt;code&gt; tag</li>
+<li>many other small improvements and fixes</li>
+</ul>
+
+<p><strong>Website 1.2</strong></p>
+
+<ul>
+<li>added option to disable resampling images using TimThumb library</li>
+<li>added option to filter front page Posts List by selected category</li>
+<li>added "stick to top" option for the top menu</li>
+<li>added option to independent displaying both menus on desktop and mobile versions of a site</li>
+<li>added option to independent editing content of both menus on desktop and mobile versions of a site</li>
+<li>added new portfolio item format: standard</li>
+<li>added deep-linking feature to filtered portfolio</li>
+<li>added support for different heights of images in one portfolio item slider</li>
+<li>added new shortcode: tooltip</li>
+<li>added support for Open Graph protocol</li>
+<li>added option to disable images border</li>
+<li>added social media icon: pinterest</li>
+<li>added support for PHP 5.4.0</li>
+<li>updated TimThumb to version 2.8.10</li>
+<li>decreased time between theme updates checks</li>
+<li>shortcodes are now allowed in a custom ad banner code</li>
+<li>fixed not displaying images on some server configurations bug</li>
+<li>fixed not responsive logo and some external-hosted elements (e.g. embedded videos) behavior</li>
+<li>fixed pagination not displaying on posts archive and search results pages bug</li>
+<li>fixed Twitter widget displaying content even after failed data import</li>
+<li>fixed portfolio item slider gallery bug causing not all images to display</li>
+<li>fixed bad spacing of featured columns without any icon</li>
+<li>fixed bug causing featured content to display in password protected posts</li>
+<li>many other small improvements and fixes</li>
+</ul>
+
+<p><strong>Website 1.1</strong></p>
+
+<ul>
+<li>added Facebook Like Box widget</li>
+<li>added portfolio option to use both filtering and pagination</li>
+<li>added option to turn ad banner on and off</li>
+<li>now excerpt displays on posts list if available</li>
+<li>improved responsive images system</li>
+<li>fixed bug causing errors on some configurations with PHP 5.3.x</li>
+<li>added demo content in XML format for import</li>
+<li>other small improvements and fixes</li>
+</ul>
+
+<p><strong>Website 1.0</strong></p>
+
+<ul>
+<li>first release</li>
+</ul>
+
+<hr />
+
+<h2>Thank you</h2>
+
+<p>for purchasing this theme. If you have further questions don't hesitate to ask. The best way to contact me is the contact form on <a href="http://themeforest.net/user/kubasto/">my profile page</a>.<br />
+Kuba Sto</p>
+
+<div>
+    <link type="text/css" rel="stylesheet" href="res/video-js.css">
+    <script type="text/javascript" src="res/video.js"></script>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/doc.js"></script>
+</div>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->

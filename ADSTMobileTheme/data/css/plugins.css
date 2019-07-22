@@ -1,0 +1,29 @@
+/**
+ * @package Website_Theme
+ * @since Website 1.0
+ */
+
+/* =Contact form 7
+----------------------------------------------------------------------------- */
+.post .content .wpcf7-not-valid {
+	border-color: #e00 !important;
+}
+.post .content .wpcf7-not-valid-tip {
+	display: none;
+}
+.post .content .wpcf7-response-output {
+	border-radius: 4px;
+	border-width: 0;
+	color: #2d2300;
+	margin: 10px 0 0;
+	padding: 9px 14px;
+}
+.post .content .wpcf7-response-output.wpcf7-validation-errors {
+	background-color: #ffd987;
+}
+.post .content .wpcf7-response-output.wpcf7-mail-sent-ok {
+	background-color: #c4fdb9;
+}
+.post .content div.wpcf7 img.ajax-loader {
+	margin-left: 10px;
+}

@@ -1,0 +1,2117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Website\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-15 10:38+0100\n"
+"PO-Revision-Date: 2012-06-15 10:38+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x:2c,1;_ex:2c,1;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../comments.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:18
+#: ../functions.php:371
+#: ../functions.php:460
+#: ../functions.php:486
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:23
+msgid "Previous"
+msgstr ""
+
+#: ../comments.php:24
+msgid "Next"
+msgstr ""
+
+#: ../comments.php:38
+msgid "name"
+msgstr ""
+
+#: ../comments.php:39
+msgid "email (not published)"
+msgstr ""
+
+#: ../comments.php:39
+msgid "email (not&nbsp;published)"
+msgstr ""
+
+#: ../comments.php:40
+msgid "website"
+msgstr ""
+
+#: ../comments.php:48
+msgid "Leave a comment"
+msgstr ""
+
+#: ../comments.php:49
+#, php-format
+msgid "Leave a Reply to %s &bull; "
+msgstr ""
+
+#: ../comments.php:50
+msgid "Send &raquo;"
+msgstr ""
+
+#: ../functions.php:105
+#: ../functions.php:109
+#: ../functions.php:154
+#: ../functions.php:264
+#: ../functions.php:271
+#: ../functions.php:280
+#: ../functions.php:693
+#: ../functions.php:786
+#: ../functions.php:811
+#: ../functions.php:840
+msgid "None"
+msgstr ""
+
+#: ../functions.php:108
+#: ../functions.php:542
+#: ../functions.php:576
+#: ../functions.php:586
+#: ../functions.php:727
+#: ../functions.php:839
+msgid "Inherit"
+msgstr ""
+
+#: ../functions.php:113
+msgid "Appearance"
+msgstr ""
+
+#: ../functions.php:114
+msgid "Color scheme"
+msgstr ""
+
+#: ../functions.php:115
+msgid "Bright"
+msgstr ""
+
+#: ../functions.php:116
+msgid "Dark"
+msgstr ""
+
+#: ../functions.php:118
+msgid "Leading color"
+msgstr ""
+
+#: ../functions.php:119
+msgid "Background"
+msgstr ""
+
+#: ../functions.php:120
+msgid "Use custom background"
+msgstr ""
+
+#: ../functions.php:122
+msgid "Sidebar position"
+msgstr ""
+
+#: ../functions.php:123
+#: ../functions.php:186
+msgid "Left"
+msgstr ""
+
+#: ../functions.php:124
+#: ../functions.php:187
+msgid "Right"
+msgstr ""
+
+#: ../functions.php:126
+msgid "Custom font"
+msgstr ""
+
+#: ../functions.php:126
+#, php-format
+msgid "Select one of recommended Google web fonts or visit <a href=\"%s\">Google web fonts catalog</a>, where you can watch previews and use other one. Paste just the name of the font (e.g. %s)."
+msgstr ""
+
+#: ../functions.php:127
+msgid "Use custom font"
+msgstr ""
+
+#: ../functions.php:128
+msgid "Recommended Google web font"
+msgstr ""
+
+#: ../functions.php:139
+msgid "Other (specify below)"
+msgstr ""
+
+#: ../functions.php:141
+msgid "Or other Google web font"
+msgstr ""
+
+#: ../functions.php:142
+msgid "Subset"
+msgstr ""
+
+#: ../functions.php:143
+msgid "Latin"
+msgstr ""
+
+#: ../functions.php:144
+msgid "Latin extended"
+msgstr ""
+
+#: ../functions.php:145
+msgid "Cyrillic"
+msgstr ""
+
+#: ../functions.php:146
+msgid "Cyrillic extended"
+msgstr ""
+
+#: ../functions.php:147
+msgid "Greek"
+msgstr ""
+
+#: ../functions.php:148
+msgid "Greek extended"
+msgstr ""
+
+#: ../functions.php:149
+msgid "Khmer"
+msgstr ""
+
+#: ../functions.php:150
+msgid "Vietnamese"
+msgstr ""
+
+#: ../functions.php:152
+msgid "Images"
+msgstr ""
+
+#: ../functions.php:153
+msgid "Border style"
+msgstr ""
+
+#: ../functions.php:155
+msgid "Thin"
+msgstr ""
+
+#: ../functions.php:156
+msgid "Thick"
+msgstr ""
+
+#: ../functions.php:158
+msgid "Open in Fancybox"
+msgstr ""
+
+#: ../functions.php:161
+msgid "Header"
+msgstr ""
+
+#: ../functions.php:162
+#: ../functions.php:255
+msgid "Height"
+msgstr ""
+
+#: ../functions.php:163
+msgid "Logo"
+msgstr ""
+
+#: ../functions.php:164
+#: ../functions.php:288
+#: ../functions.php:336
+#: ../functions.php:659
+msgid "Text"
+msgstr ""
+
+#: ../functions.php:164
+msgid "It will be used if you don't select any logo image below."
+msgstr ""
+
+#: ../functions.php:165
+#: ../functions.php:170
+#: ../functions.php:404
+#: ../functions.php:609
+#: ../functions.php:714
+msgid "Image"
+msgstr ""
+
+#: ../functions.php:165
+msgid "If you don't select any logo image, text logo above will be used."
+msgstr ""
+
+#: ../functions.php:166
+msgid "This option will hide tagline and banner."
+msgstr ""
+
+#: ../functions.php:166
+msgid "Align logo to the center"
+msgstr ""
+
+#: ../functions.php:167
+msgid "Tagline"
+msgstr ""
+
+#: ../functions.php:167
+#, php-format
+msgid "To place nonbreaking space between words, use the %s sign (without spaces)."
+msgstr ""
+
+#: ../functions.php:168
+msgid "Ad banner"
+msgstr ""
+
+#: ../functions.php:169
+msgid "Display ad banner"
+msgstr ""
+
+#: ../functions.php:171
+msgid "Target URL"
+msgstr ""
+
+#: ../functions.php:172
+msgid "Code"
+msgstr ""
+
+#: ../functions.php:172
+msgid "If you paste any code, it will be used instead image and target URL from the fields above."
+msgstr ""
+
+#: ../functions.php:173
+msgid "Notice: hiding ad using this method may be against some ad-networks rules, so I recommend using this option only for self-controlled ad campaigns."
+msgstr ""
+
+#: ../functions.php:173
+msgid "Hide on mobile version"
+msgstr ""
+
+#: ../functions.php:176
+msgid "Footer"
+msgstr ""
+
+#: ../functions.php:177
+msgid "Position"
+msgstr ""
+
+#: ../functions.php:177
+msgid "Stick to bottom"
+msgstr ""
+
+#: ../functions.php:178
+msgid "Sidebar layout"
+msgstr ""
+
+#: ../functions.php:178
+msgid "Fixed means, it has the same size as the main sidebar."
+msgstr ""
+
+#: ../functions.php:179
+msgid "4 widgets (<code>small</code> + <code>small</code> + <code>small</code> + <code>fixed</code>)"
+msgstr ""
+
+#: ../functions.php:180
+msgid "3 widgets (<code>small</code> + <code>medium</code> + <code>fixed</code>)"
+msgstr ""
+
+#: ../functions.php:181
+msgid "3 widgets (<code>medium</code> + <code>small</code> + <code>fixed</code>)"
+msgstr ""
+
+#: ../functions.php:182
+msgid "2 widgets (<code>large</code> + <code>fixed</code>)"
+msgstr ""
+
+#: ../functions.php:183
+msgid "1 widget (<code>full</code>)"
+msgstr ""
+
+#: ../functions.php:185
+msgid "End note"
+msgstr ""
+
+#: ../functions.php:186
+#, php-format
+msgid "&copy; Copyright %s"
+msgstr ""
+
+#: ../functions.php:186
+#, php-format
+msgid "%1$s by <a href=\"%3$s\">%2$s</a>"
+msgstr ""
+
+#: ../functions.php:187
+#, php-format
+msgid "powered by %s theme"
+msgstr ""
+
+#: ../functions.php:190
+#: ../functions.php:370
+msgid "Navigation"
+msgstr ""
+
+#: ../functions.php:191
+msgid "Top menu"
+msgstr ""
+
+#: ../functions.php:192
+#: ../functions.php:202
+#: ../functions.php:348
+#: ../functions.php:359
+#: ../functions.php:444
+#: ../functions.php:452
+#: ../functions.php:470
+#: ../functions.php:478
+#: ../functions.php:543
+#: ../functions.php:587
+#: ../functions.php:728
+msgid "Visible"
+msgstr ""
+
+#: ../functions.php:193
+#: ../functions.php:203
+msgid "On desktop &amp; tablet devices"
+msgstr ""
+
+#: ../functions.php:194
+#: ../functions.php:204
+msgid "On mobile devices"
+msgstr ""
+
+#: ../functions.php:196
+#: ../functions.php:206
+#: ../functions.php:598
+#: ../functions.php:637
+#: ../functions.php:670
+#: ../functions.php:699
+msgid "Content"
+msgstr ""
+
+#: ../functions.php:196
+#: ../functions.php:206
+msgid "Matters only if you do not select another in <code>Appearance/Menus</code>."
+msgstr ""
+
+#: ../functions.php:197
+#: ../functions.php:207
+#: ../functions.php:216
+#: ../functions.php:292
+#: ../functions.php:440
+msgid "Pages"
+msgstr ""
+
+#: ../functions.php:198
+#: ../functions.php:208
+#: ../functions.php:1086
+msgid "Categories"
+msgstr ""
+
+#: ../functions.php:200
+msgid "Stick to top"
+msgstr ""
+
+#: ../functions.php:201
+msgid "Main menu"
+msgstr ""
+
+#: ../functions.php:211
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../functions.php:212
+#: ../functions.php:260
+msgid "Front page"
+msgstr ""
+
+#: ../functions.php:213
+msgid "Blog page"
+msgstr ""
+
+#: ../functions.php:214
+msgid "Search results page"
+msgstr ""
+
+#: ../functions.php:215
+#: ../functions.php:291
+#: ../functions.php:342
+msgid "Posts"
+msgstr ""
+
+#: ../functions.php:217
+#: ../functions.php:467
+#: ../functions.php:1043
+#: ../functions.php:1044
+#: ../functions.php:1050
+#: ../functions.php:1061
+msgid "Portfolios"
+msgstr ""
+
+#: ../functions.php:218
+#: ../functions.php:671
+msgid "Portfolio items"
+msgstr ""
+
+#: ../functions.php:219
+#: ../functions.php:497
+#: ../functions.php:1098
+#: ../functions.php:1099
+#: ../functions.php:1105
+#: ../functions.php:1116
+msgid "Galleries"
+msgstr ""
+
+#: ../functions.php:220
+msgid "Not found page (404)"
+msgstr ""
+
+#: ../functions.php:225
+msgid "Sidebars"
+msgstr ""
+
+#: ../functions.php:226
+#: ../functions.php:236
+msgid "Configuration"
+msgstr ""
+
+#: ../functions.php:227
+msgid "Sidebar on front page"
+msgstr ""
+
+#: ../functions.php:228
+msgid "Sidebar on blog page"
+msgstr ""
+
+#: ../functions.php:229
+msgid "Sidebar on search results page"
+msgstr ""
+
+#: ../functions.php:230
+msgid "Sidebar on posts"
+msgstr ""
+
+#: ../functions.php:231
+msgid "Sidebar on pages"
+msgstr ""
+
+#: ../functions.php:232
+msgid "Sidebar on not found page (404)"
+msgstr ""
+
+#: ../functions.php:235
+#: ../functions.php:997
+#: ../functions.php:998
+#: ../functions.php:1004
+#: ../functions.php:1015
+msgid "Sliders"
+msgstr ""
+
+#: ../functions.php:237
+msgid "Slider on front page"
+msgstr ""
+
+#: ../functions.php:238
+msgid "Slider on blog page"
+msgstr ""
+
+#: ../functions.php:239
+msgid "Slider on search results page"
+msgstr ""
+
+#: ../functions.php:240
+msgid "Slider on posts"
+msgstr ""
+
+#: ../functions.php:241
+msgid "Slider on pages"
+msgstr ""
+
+#: ../functions.php:242
+msgid "Slider on not found page (404)"
+msgstr ""
+
+#: ../functions.php:243
+msgid "Properties"
+msgstr ""
+
+#: ../functions.php:244
+msgid "Animation type"
+msgstr ""
+
+#: ../functions.php:245
+msgid "Fade"
+msgstr ""
+
+#: ../functions.php:246
+msgid "Slide"
+msgstr ""
+
+#: ../functions.php:252
+msgid "Animation speed"
+msgstr ""
+
+#: ../functions.php:253
+msgid "Exposure time"
+msgstr ""
+
+#: ../functions.php:254
+msgid "Animate slider automatically"
+msgstr ""
+
+#: ../functions.php:256
+#: ../functions.php:616
+msgid "Full width slider"
+msgstr ""
+
+#: ../functions.php:257
+#: ../functions.php:618
+msgid "Slider + text"
+msgstr ""
+
+#: ../functions.php:261
+msgid "Areas"
+msgstr ""
+
+#: ../functions.php:263
+#: ../functions.php:270
+#: ../functions.php:279
+#, php-format
+msgid "Area %s"
+msgstr ""
+
+#: ../functions.php:265
+#: ../functions.php:272
+#: ../functions.php:281
+#: ../functions.php:286
+msgid "Notice box"
+msgstr ""
+
+#: ../functions.php:266
+#: ../functions.php:275
+#: ../functions.php:282
+#: ../functions.php:324
+msgid "Featured columns"
+msgstr ""
+
+#: ../functions.php:273
+#: ../functions.php:290
+msgid "Featured content"
+msgstr ""
+
+#: ../functions.php:274
+#: ../functions.php:305
+msgid "Posts list"
+msgstr ""
+
+#: ../functions.php:286
+msgid "If you change title or content of the box, it will be displayed again for all users, even if they closed it before."
+msgstr ""
+
+#: ../functions.php:287
+#: ../functions.php:295
+#: ../functions.php:308
+#: ../functions.php:335
+#: ../functions.php:441
+#: ../functions.php:621
+#: ../functions.php:658
+#: ../functions.php:682
+#: ../functions.php:700
+#: ../functions.php:757
+msgid "Title"
+msgstr ""
+
+#: ../functions.php:289
+msgid "Allow users to close the box"
+msgstr ""
+
+#: ../functions.php:290
+msgid "You can select many posts and pages using CTRL key. From the selected group a number of them (set in the <code>Quantity</code> field) will be randomly selected to be displayed in the order specified by the <code>Sort by</code> selector."
+msgstr ""
+
+#: ../functions.php:293
+#: ../functions.php:306
+msgid "Quantity"
+msgstr ""
+
+#: ../functions.php:294
+#: ../functions.php:307
+#: ../functions.php:620
+#: ../functions.php:681
+#: ../functions.php:756
+msgid "Sort by"
+msgstr ""
+
+#: ../functions.php:296
+#: ../functions.php:309
+#: ../functions.php:363
+#: ../functions.php:456
+#: ../functions.php:482
+#: ../functions.php:622
+#: ../functions.php:683
+#: ../functions.php:758
+msgid "Date"
+msgstr ""
+
+#: ../functions.php:297
+#: ../functions.php:310
+#: ../functions.php:623
+#: ../functions.php:684
+msgid "Modified date"
+msgstr ""
+
+#: ../functions.php:298
+#: ../functions.php:311
+#: ../functions.php:685
+msgid "Comment count"
+msgstr ""
+
+#: ../functions.php:299
+#: ../functions.php:312
+#: ../functions.php:624
+#: ../functions.php:686
+#: ../functions.php:759
+msgid "Random order"
+msgstr ""
+
+#: ../functions.php:301
+#: ../functions.php:314
+#: ../functions.php:626
+#: ../functions.php:688
+#: ../functions.php:762
+msgid "Sort order"
+msgstr ""
+
+#: ../functions.php:302
+#: ../functions.php:315
+#: ../functions.php:627
+#: ../functions.php:689
+#: ../functions.php:763
+msgid "Ascending"
+msgstr ""
+
+#: ../functions.php:303
+#: ../functions.php:316
+#: ../functions.php:628
+#: ../functions.php:690
+#: ../functions.php:764
+msgid "Descending"
+msgstr ""
+
+#: ../functions.php:318
+#: ../functions.php:694
+msgid "Category filter"
+msgstr ""
+
+#: ../functions.php:319
+msgid "Show post only from selected categories:"
+msgstr ""
+
+#: ../functions.php:322
+msgid "Display Go to blog link"
+msgstr ""
+
+#: ../functions.php:323
+msgid "Go to blog"
+msgstr ""
+
+#: ../functions.php:323
+msgid "Go to blog link text"
+msgstr ""
+
+#: ../functions.php:325
+msgid "Number of columns"
+msgstr ""
+
+#: ../functions.php:326
+msgid "One"
+msgstr ""
+
+#: ../functions.php:327
+msgid "Two"
+msgstr ""
+
+#: ../functions.php:328
+msgid "Three"
+msgstr ""
+
+#: ../functions.php:329
+msgid "Four"
+msgstr ""
+
+#: ../functions.php:333
+#, php-format
+msgid "Column %d"
+msgstr ""
+
+#: ../functions.php:334
+msgid "Icon"
+msgstr ""
+
+#: ../functions.php:337
+msgid "More"
+msgstr ""
+
+#: ../functions.php:337
+#: ../functions.php:661
+msgid "Read more word"
+msgstr ""
+
+#: ../functions.php:338
+#: ../functions.php:662
+msgid "Read more link"
+msgstr ""
+
+#: ../functions.php:343
+#: ../functions.php:661
+msgid "Read more"
+msgstr ""
+
+#: ../functions.php:343
+msgid "Read more text"
+msgstr ""
+
+#: ../functions.php:344
+#: ../functions.php:442
+#: ../functions.php:468
+#: ../functions.php:581
+#: ../functions.php:722
+msgid "Author details"
+msgstr ""
+
+#: ../functions.php:344
+msgid "Show author details inside post"
+msgstr ""
+
+#: ../functions.php:345
+#: ../functions.php:443
+#: ../functions.php:469
+#: ../functions.php:582
+#: ../functions.php:723
+msgid "Social buttons"
+msgstr ""
+
+#: ../functions.php:346
+#: ../functions.php:357
+#: ../functions.php:386
+#: ../functions.php:407
+#: ../functions.php:425
+#: ../functions.php:433
+msgid "On posts list"
+msgstr ""
+
+#: ../functions.php:346
+#: ../functions.php:357
+#: ../functions.php:387
+#: ../functions.php:408
+#: ../functions.php:426
+#: ../functions.php:434
+msgid "Inside post"
+msgstr ""
+
+#: ../functions.php:350
+#: ../functions.php:446
+#: ../functions.php:472
+msgid "Twitter"
+msgstr ""
+
+#: ../functions.php:351
+#: ../functions.php:447
+#: ../functions.php:473
+msgid "Facebook"
+msgstr ""
+
+#: ../functions.php:352
+#: ../functions.php:448
+#: ../functions.php:474
+msgid "Google+"
+msgstr ""
+
+#: ../functions.php:353
+#: ../functions.php:449
+#: ../functions.php:475
+msgid "Pinterest"
+msgstr ""
+
+#: ../functions.php:356
+#: ../functions.php:451
+#: ../functions.php:477
+#: ../functions.php:583
+#: ../functions.php:724
+msgid "Meta elements"
+msgstr ""
+
+#: ../functions.php:361
+#: ../functions.php:454
+#: ../functions.php:480
+msgid "Number of comments"
+msgstr ""
+
+#: ../functions.php:362
+#: ../functions.php:455
+#: ../functions.php:481
+msgid "Author"
+msgstr ""
+
+#: ../functions.php:364
+msgid "Category"
+msgstr ""
+
+#: ../functions.php:365
+#: ../functions.php:702
+#: ../functions.php:1091
+msgid "Tags"
+msgstr ""
+
+#: ../functions.php:366
+#: ../functions.php:457
+#: ../functions.php:483
+msgid "Permalink"
+msgstr ""
+
+#: ../functions.php:367
+#: ../functions.php:458
+#: ../functions.php:484
+msgid "Edit link (visible to editors only)"
+msgstr ""
+
+#: ../functions.php:370
+msgid "Show links to next and previous posts"
+msgstr ""
+
+#: ../functions.php:371
+#: ../functions.php:460
+#: ../functions.php:486
+msgid "Allow comments"
+msgstr ""
+
+#: ../functions.php:372
+#: ../functions.php:487
+#: ../functions.php:498
+msgid "Pagination"
+msgstr ""
+
+#: ../functions.php:373
+#: ../functions.php:377
+#: ../functions.php:462
+#: ../functions.php:488
+#: ../functions.php:492
+#: ../functions.php:499
+msgid "Numbers"
+msgstr ""
+
+#: ../functions.php:374
+#: ../functions.php:378
+#: ../functions.php:463
+#: ../functions.php:489
+#: ../functions.php:493
+#: ../functions.php:500
+msgid "Numbers + navigation"
+msgstr ""
+
+#: ../functions.php:376
+#: ../functions.php:461
+#: ../functions.php:491
+msgid "Comments pagination"
+msgstr ""
+
+#: ../functions.php:382
+msgid "Format posts"
+msgstr ""
+
+#: ../functions.php:383
+#: ../functions.php:713
+msgid "Standard"
+msgstr ""
+
+#: ../functions.php:385
+#: ../functions.php:406
+msgid "Show featured image"
+msgstr ""
+
+#: ../functions.php:389
+#: ../functions.php:410
+msgid "Featured image click action"
+msgstr ""
+
+#: ../functions.php:389
+#: ../functions.php:410
+msgid "Click action refers to posts list only. Inside posts, clicked featured images always open in Fancybox window."
+msgstr ""
+
+#: ../functions.php:390
+#: ../functions.php:398
+#: ../functions.php:411
+msgid "Go to post"
+msgstr ""
+
+#: ../functions.php:391
+#: ../functions.php:412
+msgid "Open image in Fancybox"
+msgstr ""
+
+#: ../functions.php:394
+#: ../functions.php:403
+#: ../functions.php:415
+#: ../functions.php:418
+#: ../functions.php:421
+#: ../functions.php:429
+#: ../functions.php:437
+msgid "Hide content on posts list"
+msgstr ""
+
+#: ../functions.php:395
+#: ../functions.php:549
+#: ../functions.php:610
+msgid "Link"
+msgstr ""
+
+#: ../functions.php:397
+msgid "Post title click action"
+msgstr ""
+
+#: ../functions.php:397
+msgid "This option refers to posts list only. Inside posts, clicked link always goes to specified URL."
+msgstr ""
+
+#: ../functions.php:399
+msgid "Go to URL specified in the post"
+msgstr ""
+
+#: ../functions.php:401
+msgid "Post title link behavior"
+msgstr ""
+
+#: ../functions.php:401
+msgid "Open in new window"
+msgstr ""
+
+#: ../functions.php:416
+msgid "Quote"
+msgstr ""
+
+#: ../functions.php:419
+msgid "Status"
+msgstr ""
+
+#: ../functions.php:422
+#: ../functions.php:557
+#: ../functions.php:653
+#: ../functions.php:716
+#: ../functions.php:734
+msgid "Video"
+msgstr ""
+
+#: ../functions.php:424
+#: ../functions.php:432
+msgid "Show player"
+msgstr ""
+
+#: ../functions.php:430
+#: ../functions.php:553
+msgid "Audio"
+msgstr ""
+
+#: ../functions.php:441
+msgid "Hide page title"
+msgstr ""
+
+#: ../functions.php:442
+#: ../functions.php:468
+msgid "Show author details"
+msgstr ""
+
+#: ../functions.php:504
+msgid "Contact form"
+msgstr ""
+
+#: ../functions.php:508
+msgid "Advanced"
+msgstr ""
+
+#: ../functions.php:511
+msgid "TimThumb"
+msgstr ""
+
+#: ../functions.php:512
+#: ../functions.php:697
+#: ../functions.php:766
+msgid "Enabled"
+msgstr ""
+
+#: ../functions.php:513
+msgid "Images quality"
+msgstr ""
+
+#: ../functions.php:513
+msgid "Higher value = better image quality."
+msgstr ""
+
+#: ../functions.php:514
+msgid "Desktop & tablet devices"
+msgstr ""
+
+#: ../functions.php:515
+msgid "Mobile devices"
+msgstr ""
+
+#: ../functions.php:516
+msgid "JW Player"
+msgstr ""
+
+#: ../functions.php:516
+msgid "If you use self-hosted videos, read about configuring it in theme's documentation, Installation chapter."
+msgstr ""
+
+#: ../functions.php:517
+msgid "Player folder path"
+msgstr ""
+
+#: ../functions.php:519
+msgid "Skin file path"
+msgstr ""
+
+#: ../functions.php:520
+msgid "Skin control bar height"
+msgstr ""
+
+#: ../functions.php:523
+msgid "Other"
+msgstr ""
+
+#: ../functions.php:531
+#: ../functions.php:572
+#: ../functions.php:614
+#: ../functions.php:674
+#: ../functions.php:720
+#: ../functions.php:749
+msgid "Options"
+msgstr ""
+
+#: ../functions.php:531
+#: ../functions.php:572
+#: ../functions.php:720
+msgid "Inherit means, it will take the option from Theme Options."
+msgstr ""
+
+#: ../functions.php:532
+msgid "Slider inside post"
+msgstr ""
+
+#: ../functions.php:533
+msgid "Sidebar inside post"
+msgstr ""
+
+#: ../functions.php:535
+msgid "Author inside post"
+msgstr ""
+
+#: ../functions.php:536
+msgid "Social on posts list"
+msgstr ""
+
+#: ../functions.php:537
+msgid "Social inside post"
+msgstr ""
+
+#: ../functions.php:538
+msgid "Meta on posts list"
+msgstr ""
+
+#: ../functions.php:539
+msgid "Meta inside post"
+msgstr ""
+
+#: ../functions.php:544
+#: ../functions.php:588
+#: ../functions.php:729
+msgid "Hidden"
+msgstr ""
+
+#: ../functions.php:549
+msgid "These fields impact only Link post format."
+msgstr ""
+
+#: ../functions.php:550
+msgid "URL"
+msgstr ""
+
+#: ../functions.php:553
+msgid "These fields impact only Audio post format."
+msgstr ""
+
+#: ../functions.php:554
+#: ../functions.php:562
+#: ../functions.php:739
+msgid "File URL"
+msgstr ""
+
+#: ../functions.php:554
+#: ../functions.php:562
+#: ../functions.php:739
+#, php-format
+msgid "Supported formats: %s."
+msgstr ""
+
+#: ../functions.php:557
+msgid "These fields impact only Video post format."
+msgstr ""
+
+#: ../functions.php:558
+#: ../functions.php:735
+msgid "Method"
+msgstr ""
+
+#: ../functions.php:559
+#: ../functions.php:736
+msgid "Self-hosted"
+msgstr ""
+
+#: ../functions.php:560
+#: ../functions.php:737
+msgid "Embedding code"
+msgstr ""
+
+#: ../functions.php:563
+#: ../functions.php:740
+msgid "Size ratio"
+msgstr ""
+
+#: ../functions.php:563
+#: ../functions.php:740
+msgid "Divide width by height to specify correct number."
+msgstr ""
+
+#: ../functions.php:564
+#: ../functions.php:654
+#: ../functions.php:741
+msgid "External video code"
+msgstr ""
+
+#: ../functions.php:564
+#: ../functions.php:741
+msgid "It will be used instead the URL above."
+msgstr ""
+
+#: ../functions.php:573
+#: ../functions.php:1005
+msgid "Slider"
+msgstr ""
+
+#: ../functions.php:574
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions.php:575
+msgid "Hide title"
+msgstr ""
+
+#: ../functions.php:577
+msgid "Yes"
+msgstr ""
+
+#: ../functions.php:578
+msgid "No"
+msgstr ""
+
+#: ../functions.php:599
+msgid "Slider items"
+msgstr ""
+
+#: ../functions.php:603
+#, php-format
+msgid "Additional banner %s"
+msgstr ""
+
+#: ../functions.php:603
+msgid "It's displayed only if the &quot;slider + two banners&quot; type is used."
+msgstr ""
+
+#: ../functions.php:604
+#: ../functions.php:648
+msgid "Caption"
+msgstr ""
+
+#: ../functions.php:605
+msgid "Caption color"
+msgstr ""
+
+#: ../functions.php:606
+#: ../functions.php:640
+msgid "White"
+msgstr ""
+
+#: ../functions.php:607
+#: ../functions.php:641
+msgid "Black"
+msgstr ""
+
+#: ../functions.php:615
+msgid "Type"
+msgstr ""
+
+#: ../functions.php:617
+msgid "Slider + two banners"
+msgstr ""
+
+#: ../functions.php:638
+msgid "On-slide text"
+msgstr ""
+
+#: ../functions.php:639
+msgid "Text color"
+msgstr ""
+
+#: ../functions.php:643
+msgid "Text position"
+msgstr ""
+
+#: ../functions.php:644
+msgid "Top"
+msgstr ""
+
+#: ../functions.php:645
+msgid "Middle"
+msgstr ""
+
+#: ../functions.php:646
+msgid "Bottom"
+msgstr ""
+
+#: ../functions.php:649
+msgid "Link URL"
+msgstr ""
+
+#: ../functions.php:650
+msgid "Link target"
+msgstr ""
+
+#: ../functions.php:650
+msgid "Open in new browser's window"
+msgstr ""
+
+#: ../functions.php:653
+msgid "Notice: if you use video, the Content section won't be used."
+msgstr ""
+
+#: ../functions.php:657
+msgid "Description"
+msgstr ""
+
+#: ../functions.php:657
+msgid "It's displayed only if the &quot;slider + text&quot; type is used."
+msgstr ""
+
+#: ../functions.php:660
+msgid "Text for tablet version"
+msgstr ""
+
+#: ../functions.php:660
+msgid "Due to the difference in space to use on desktop and tablet versions of the site, you can prepare a different text for each version. If you leave this field empty, the same text will be used in all site versions."
+msgstr ""
+
+#: ../functions.php:675
+msgid "Items sizes"
+msgstr ""
+
+#: ../functions.php:676
+#: ../functions.php:751
+msgid "Big"
+msgstr ""
+
+#: ../functions.php:677
+#: ../functions.php:752
+msgid "Medium"
+msgstr ""
+
+#: ../functions.php:678
+#: ../functions.php:753
+msgid "Small"
+msgstr ""
+
+#: ../functions.php:679
+#: ../functions.php:754
+msgid "Tiny"
+msgstr ""
+
+#: ../functions.php:692
+msgid "Filtering"
+msgstr ""
+
+#: ../functions.php:695
+msgid "Tag filter"
+msgstr ""
+
+#: ../functions.php:697
+#: ../functions.php:766
+msgid "Page pagination"
+msgstr ""
+
+#: ../functions.php:698
+msgid "Items per page"
+msgstr ""
+
+#: ../functions.php:698
+#: ../functions.php:767
+msgid "Used only if you enable pagination."
+msgstr ""
+
+#: ../functions.php:701
+msgid "Excerpt"
+msgstr ""
+
+#: ../functions.php:711
+msgid "Format"
+msgstr ""
+
+#: ../functions.php:715
+msgid "Slider gallery"
+msgstr ""
+
+#: ../functions.php:734
+msgid "These fields impact only Video format."
+msgstr ""
+
+#: ../functions.php:750
+msgid "Thumbnails sizes"
+msgstr ""
+
+#: ../functions.php:760
+msgid "Custom order"
+msgstr ""
+
+#: ../functions.php:767
+msgid "Thumbnails per page"
+msgstr ""
+
+#: ../functions.php:920
+msgid "General sidebar"
+msgstr ""
+
+#: ../functions.php:921
+msgid "Front page sidebar"
+msgstr ""
+
+#: ../functions.php:922
+msgid "Blog page sidebar"
+msgstr ""
+
+#: ../functions.php:923
+msgid "Search results page sidebar"
+msgstr ""
+
+#: ../functions.php:924
+msgid "Posts sidebar"
+msgstr ""
+
+#: ../functions.php:925
+msgid "Pages sidebar"
+msgstr ""
+
+#: ../functions.php:926
+msgid "Not found page (404) sidebar"
+msgstr ""
+
+#: ../functions.php:929
+#, php-format
+msgid "Additional sidebar %d"
+msgstr ""
+
+#: ../functions.php:966
+msgid "Top menu on desktop &amp; tablet devices"
+msgstr ""
+
+#: ../functions.php:967
+msgid "Top menu on mobile devices"
+msgstr ""
+
+#: ../functions.php:968
+msgid "Main menu on desktop &amp; tablet devices"
+msgstr ""
+
+#: ../functions.php:969
+msgid "Main menu on mobile devices"
+msgstr ""
+
+#: ../functions.php:987
+msgid "Footer sidebar"
+msgstr ""
+
+#: ../functions.php:1006
+msgctxt "Slider"
+msgid "Add New"
+msgstr ""
+
+#: ../functions.php:1007
+msgid "All Sliders"
+msgstr ""
+
+#: ../functions.php:1008
+msgid "Add New Slider"
+msgstr ""
+
+#: ../functions.php:1009
+msgid "Edit Slider"
+msgstr ""
+
+#: ../functions.php:1010
+msgid "New Slider"
+msgstr ""
+
+#: ../functions.php:1011
+msgid "View Slider"
+msgstr ""
+
+#: ../functions.php:1012
+msgid "Search Sliders"
+msgstr ""
+
+#: ../functions.php:1013
+msgid "No Sliders found"
+msgstr ""
+
+#: ../functions.php:1014
+msgid "No Sliders found in Trash"
+msgstr ""
+
+#: ../functions.php:1019
+#: ../functions.php:1020
+#: ../functions.php:1026
+#: ../functions.php:1037
+msgid "Slider Items"
+msgstr ""
+
+#: ../functions.php:1027
+msgid "Slider Item"
+msgstr ""
+
+#: ../functions.php:1028
+msgctxt "Slider item"
+msgid "Add New"
+msgstr ""
+
+#: ../functions.php:1029
+msgid "All Slider Items"
+msgstr ""
+
+#: ../functions.php:1030
+msgid "Add New Slider Item"
+msgstr ""
+
+#: ../functions.php:1031
+msgid "Edit Slider Item"
+msgstr ""
+
+#: ../functions.php:1032
+msgid "New Slider Item"
+msgstr ""
+
+#: ../functions.php:1033
+msgid "View Slider Item"
+msgstr ""
+
+#: ../functions.php:1034
+msgid "Search Slider Items"
+msgstr ""
+
+#: ../functions.php:1035
+msgid "No Slider Items found"
+msgstr ""
+
+#: ../functions.php:1036
+msgid "No Slider Items found in Trash"
+msgstr ""
+
+#: ../functions.php:1051
+msgid "Portfolio"
+msgstr ""
+
+#: ../functions.php:1052
+msgctxt "Portfolio"
+msgid "Add New"
+msgstr ""
+
+#: ../functions.php:1053
+msgid "All Portfolios"
+msgstr ""
+
+#: ../functions.php:1054
+msgid "Add New Portfolio"
+msgstr ""
+
+#: ../functions.php:1055
+msgid "Edit Portfolio"
+msgstr ""
+
+#: ../functions.php:1056
+msgid "New Portfolio"
+msgstr ""
+
+#: ../functions.php:1057
+msgid "View Portfolio"
+msgstr ""
+
+#: ../functions.php:1058
+msgid "Search Portfolios"
+msgstr ""
+
+#: ../functions.php:1059
+msgid "No Portfolios found"
+msgstr ""
+
+#: ../functions.php:1060
+msgid "No Portfolios found in Trash"
+msgstr ""
+
+#: ../functions.php:1065
+#: ../functions.php:1066
+#: ../functions.php:1071
+#: ../functions.php:1082
+msgid "Portfolio Items"
+msgstr ""
+
+#: ../functions.php:1072
+msgid "Portfolio Item"
+msgstr ""
+
+#: ../functions.php:1073
+msgctxt "Portfolio item"
+msgid "Add New"
+msgstr ""
+
+#: ../functions.php:1074
+msgid "All Portfolio Items"
+msgstr ""
+
+#: ../functions.php:1075
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../functions.php:1076
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../functions.php:1077
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../functions.php:1078
+msgid "View Portfolio Item"
+msgstr ""
+
+#: ../functions.php:1079
+msgid "Search Portfolio Items"
+msgstr ""
+
+#: ../functions.php:1080
+msgid "No Portfolio Items found"
+msgstr ""
+
+#: ../functions.php:1081
+msgid "No Portfolio Items found in Trash"
+msgstr ""
+
+#: ../functions.php:1106
+msgid "Gallery"
+msgstr ""
+
+#: ../functions.php:1107
+msgctxt "Gallery"
+msgid "Add New"
+msgstr ""
+
+#: ../functions.php:1108
+msgid "All Galleries"
+msgstr ""
+
+#: ../functions.php:1109
+msgid "Add New Gallery"
+msgstr ""
+
+#: ../functions.php:1110
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../functions.php:1111
+msgid "New Gallery"
+msgstr ""
+
+#: ../functions.php:1112
+msgid "View Gallery"
+msgstr ""
+
+#: ../functions.php:1113
+msgid "Search Galleries"
+msgstr ""
+
+#: ../functions.php:1114
+msgid "No Galleries found"
+msgstr ""
+
+#: ../functions.php:1115
+msgid "No Galleries found in Trash"
+msgstr ""
+
+#: ../functions.php:1309
+msgid "This post is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: ../functions.php:1310
+msgid "password"
+msgstr ""
+
+#: ../functions.php:1311
+msgid "Submit"
+msgstr ""
+
+#: ../functions.php:2079
+msgid "Reply"
+msgstr ""
+
+#: ../functions.php:2088
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:2090
+msgid "Edit"
+msgstr ""
+
+#: ../functions.php:2095
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../header.php:95
+#, php-format
+msgid "Your browser (Internet Explorer 7 or lower) is <strong>out of date</strong>. It has known <strong>security flaws</strong> and may <strong>not display all features</strong> of this and other websites. <a href=\"%s\">Learn how to update your browser</a>."
+msgstr ""
+
+#: ../header.php:115
+msgid "Navigate / search"
+msgstr ""
+
+#: ../header.php:126
+msgid "search"
+msgstr ""
+
+#: ../loop.php:70
+msgid "next posts"
+msgstr ""
+
+#: ../loop.php:71
+msgid "previous posts"
+msgstr ""
+
+#: ../loop.php:82
+msgid "Sorry, but nothing matched your search criteria."
+msgstr ""
+
+#: ../loop.php:84
+msgid "Sorry, but the page you requested could not be found."
+msgstr ""
+
+#: ../loop.php:86
+msgid "Sorry, but no posts were found."
+msgstr ""
+
+#: ../meta.php:37
+#, php-format
+msgid "View all posts from %s"
+msgstr ""
+
+#: ../single-gallery.php:69
+#: ../single-portfolio.php:136
+msgid "previous"
+msgstr ""
+
+#: ../single-gallery.php:70
+#: ../single-portfolio.php:137
+msgid "next"
+msgstr ""
+
+#: ../single-portfolio.php:54
+msgid "All"
+msgstr ""
+
+#: ../tpl-contact-form.php:12
+#: ../widgets.php:211
+msgid "Send"
+msgstr ""
+
+#: ../widgets.php:17
+msgid "Search"
+msgstr ""
+
+#: ../widgets.php:17
+msgid "A search form for your site."
+msgstr ""
+
+#: ../widgets.php:56
+msgid "Vertical"
+msgstr ""
+
+#: ../widgets.php:57
+msgid "Horizontal"
+msgstr ""
+
+#: ../widgets.php:59
+msgid "Open links in new window"
+msgstr ""
+
+#: ../widgets.php:65
+#, php-format
+msgid "Slot %d icon"
+msgstr ""
+
+#: ../widgets.php:66
+#, php-format
+msgid "Slot %d title"
+msgstr ""
+
+#: ../widgets.php:67
+#, php-format
+msgid "Slot %d url"
+msgstr ""
+
+#: ../widgets.php:75
+msgid "Social media"
+msgstr ""
+
+#: ../widgets.php:75
+msgid "Social media icons."
+msgstr ""
+
+#: ../widgets.php:136
+msgid "Site title"
+msgstr ""
+
+#: ../widgets.php:144
+msgid "Site info"
+msgstr ""
+
+#: ../widgets.php:144
+msgid "Website title and tagline."
+msgstr ""
+
+#: ../widgets.php:180
+msgid "It displays only required fields from the contact form configured it in the Appereance / Theme Options / Contact Form section."
+msgstr ""
+
+#: ../widgets.php:236
+msgid "Facebook page URL"
+msgstr ""
+
+#: ../widgets.php:236
+#, php-format
+msgid "E.g. %s"
+msgstr ""
+
+#: ../widgets.php:238
+msgid "Show header"
+msgstr ""
+
+#: ../widgets.php:239
+msgid "Show faces"
+msgstr ""
+
+#: ../widgets.php:240
+msgid "Show stream"
+msgstr ""
+
+#: ../widgets.php:247
+msgid "Facebook Like Box"
+msgstr ""
+
+#: ../widgets.php:247
+msgid "Configurable Facebook widget."
+msgstr ""
+
+#: ../drone/droneoptions.class.php:772
+#: ../drone/droneoptions.class.php:889
+#: ../drone/droneoptions.class.php:974
+#: ../drone/droneoptions.class.php:1111
+msgid "Default"
+msgstr ""
+
+#: ../drone/droneoptions.class.php:1070
+msgid "Select"
+msgstr ""
+
+#: ../drone/droneoptions.class.php:1071
+msgid "Clear"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:489
+#, php-format
+msgid "%s Options"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:489
+msgid "Theme Options"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:528
+#, php-format
+msgid "New version (%s) of <strong>%s</strong> theme is available!"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:533
+msgid "Update"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:535
+msgid "or"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:540
+msgid "hide this message"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:955
+msgid "Please enter your name."
+msgstr ""
+
+#: ../drone/dronetheme.class.php:960
+msgid "Invalid email address."
+msgstr ""
+
+#: ../drone/dronetheme.class.php:965
+msgid "Invalid website address."
+msgstr ""
+
+#: ../drone/dronetheme.class.php:970
+msgid "Invalid phone number."
+msgstr ""
+
+#: ../drone/dronetheme.class.php:975
+msgid "Please write your message."
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1016
+msgid "Message sent."
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1018
+msgid "Error occured. Message couldn't be sent."
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1348
+msgid "Favicon image"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1348
+#, php-format
+msgid "Paste favicon's URL or select/upload an image (%s)."
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1368
+msgid "Alternative feed URL"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1368
+msgid "E.g. FeedBurner."
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1386
+msgid "Tracking code"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1386
+msgid "E.g. Google Analitycs."
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1401
+msgid "Custom CSS code"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1416
+msgid "Custom JavaScript code"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1439
+msgid "blog name"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1440
+msgid "blog url"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1441
+msgid "name field"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1442
+msgid "e-mail field"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1443
+msgid "website field"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1444
+msgid "phone number field"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1445
+msgid "subject field"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1447
+msgid "Available form fields"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1447
+msgid "required fields (if present)."
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1448
+#: ../drone/dronetheme.class.php:2065
+msgid "Name"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1449
+#: ../drone/dronetheme.class.php:2066
+msgid "E-mail"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1450
+#: ../drone/dronetheme.class.php:2067
+msgid "Website"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1451
+#: ../drone/dronetheme.class.php:2068
+msgid "Phone number"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1452
+#: ../drone/dronetheme.class.php:2069
+msgid "Subject"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1453
+#: ../drone/dronetheme.class.php:2070
+msgid "Message"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1470
+msgid "E-mail subject"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1473
+#: ../drone/dronetheme.class.php:1478
+msgid "Recipient e-mail address"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1476
+msgid "Sender e-mail address"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1476
+msgid "Some servers allow only for sending emails from their own domain, so in that case make sure it's the proper email."
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1477
+msgid "WordPress settings e-mail"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1479
+msgid "E-mail form field"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1483
+msgid "Advanced settings"
+msgstr ""
+
+#: ../drone/dronetheme.class.php:1484
+#, php-format
+msgid "Override %s header with Name field"
+msgstr ""
+
+#: ../drone/dronewidget.class.php:247
+#: ../drone/dronewidget.class.php:342
+msgid "Username"
+msgstr ""
+
+#: ../drone/dronewidget.class.php:248
+msgid "Tweets count"
+msgstr ""
+
+#: ../drone/dronewidget.class.php:249
+#: ../drone/dronewidget.class.php:344
+msgid "Update interval"
+msgstr ""
+
+#: ../drone/dronewidget.class.php:249
+msgid "Tweets receiving interval (in minutes)."
+msgstr ""
+
+#: ../drone/dronewidget.class.php:250
+msgid "Include retweets"
+msgstr ""
+
+#: ../drone/dronewidget.class.php:257
+msgid "Twitter stream."
+msgstr ""
+
+#: ../drone/dronewidget.class.php:303
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: ../drone/dronewidget.class.php:342
+msgid "Screen name from Flickr account settings."
+msgstr ""
+
+#: ../drone/dronewidget.class.php:343
+msgid "Photos count"
+msgstr ""
+
+#: ../drone/dronewidget.class.php:344
+msgid "Photos receiving interval (in minutes)."
+msgstr ""
+
+#: ../drone/dronewidget.class.php:346
+msgid "Open Flickr page with the photo"
+msgstr ""
+
+#: ../drone/dronewidget.class.php:347
+msgid "Open bigger version of the photo"
+msgstr ""
+
+#: ../drone/dronewidget.class.php:349
+msgid "API Key"
+msgstr ""
+
+#: ../drone/dronewidget.class.php:349
+msgid "Optional (use only if you want to use your key)."
+msgstr ""
+
+#: ../drone/dronewidget.class.php:356
+msgid "Flickr"
+msgstr ""
+
+#: ../drone/dronewidget.class.php:356
+msgid "Flickr photo stream."
+msgstr ""
+
+#: ../drone/dronewidget.class.php:439
+msgid "Allow shortcodes"
+msgstr ""
+
+#: ../drone/dronewidget.class.php:446
+msgid "Unwrapped Text"
+msgstr ""
+
+#: ../drone/dronewidget.class.php:446
+msgid "For pure HTML code."
+msgstr ""
+
+#: ../drone/tpl/theme-options.php:17
+msgid "Settings saved."
+msgstr ""
+
+#: ../drone/tpl/theme-options.php:27
+msgid "Save Changes"
+msgstr ""
+
